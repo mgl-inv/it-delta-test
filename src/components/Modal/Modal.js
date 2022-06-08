@@ -54,7 +54,7 @@ function Modal({ setIsOpen, cardId }) {
 									rows='10'
 									value={commentText}
 									className='form__textarea'
-									onChange={handleCommentTextChange}
+									onChange={(el) => handleCommentTextChange(el)}
 								></textarea>
 								<h5 className='form__text'>
 									Write a few sentences about the photo.
